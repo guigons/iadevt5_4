@@ -1,0 +1,23 @@
+{
+  "name": "iadevt5_4",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test:e2e": "npx playwright test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rodrigobranas/iadevt5_3.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rodrigobranas/iadevt5_3/issues"
+  },
+  "homepage": "https://github.com/rodrigobranas/iadevt5_3#readme",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.58.1"
+  }
+}

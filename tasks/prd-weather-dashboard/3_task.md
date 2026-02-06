@@ -15,12 +15,12 @@ Integrar o frontend com o backend, configurar as rotas da aplicação e criar te
 
 ## Subtarefas
 
-- [ ] 3.1 Configurar proxy no Vite para desenvolvimento (se necessário)
-- [ ] 3.2 Conectar hooks do frontend aos endpoints do backend
-- [ ] 3.3 Adicionar rota `/weather` no `App.tsx` do frontend
-- [ ] 3.4 Testar integração manualmente (verificar se tudo funciona junto)
-- [ ] 3.5 Criar testes E2E com Playwright (`e2e/weather-dashboard.spec.ts`)
-- [ ] 3.6 Executar testes E2E e corrigir problemas encontrados
+- [x] 3.1 Configurar proxy no Vite para desenvolvimento (se necessário)
+- [x] 3.2 Conectar hooks do frontend aos endpoints do backend
+- [x] 3.3 Adicionar rota `/weather` no `App.tsx` do frontend
+- [x] 3.4 Testar integração manualmente (verificar se tudo funciona junto)
+- [x] 3.5 Criar testes E2E com Playwright (`e2e/weather-dashboard.spec.ts`)
+- [x] 3.6 Executar testes E2E e corrigir problemas encontrados
 
 ## Detalhes de Implementação
 

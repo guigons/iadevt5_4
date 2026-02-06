@@ -15,13 +15,13 @@ Criar a camada backend completa para o Weather Dashboard, incluindo types, servi
 
 ## Subtarefas
 
-- [ ] 1.1 Criar arquivo `backend/src/weather/weather.types.ts` com todas as interfaces TypeScript
-- [ ] 1.2 Criar arquivo `backend/src/weather/weather.service.ts` com chamadas HTTP às APIs Open-Meteo
-- [ ] 1.3 Criar arquivo `backend/src/weather/weather.controller.ts` com lógica de validação e orquestração
-- [ ] 1.4 Criar arquivo `backend/src/weather/weather.routes.ts` com rotas Express
-- [ ] 1.5 Registrar as rotas no arquivo principal `backend/src/index.ts`
-- [ ] 1.6 Criar testes unitários do service (`weather.service.test.ts`)
-- [ ] 1.7 Criar testes unitários do controller (`weather.controller.test.ts`)
+- [x] 1.1 Criar arquivo `backend/src/weather/weather.types.ts` com todas as interfaces TypeScript
+- [x] 1.2 Criar arquivo `backend/src/weather/weather.service.ts` com chamadas HTTP às APIs Open-Meteo
+- [x] 1.3 Criar arquivo `backend/src/weather/weather.controller.ts` com lógica de validação e orquestração
+- [x] 1.4 Criar arquivo `backend/src/weather/weather.routes.ts` com rotas Express
+- [x] 1.5 Registrar as rotas no arquivo principal `backend/src/index.ts`
+- [x] 1.6 Criar testes unitários do service (`weather.service.test.ts`)
+- [x] 1.7 Criar testes unitários do controller (`weather.controller.test.ts`)
 
 ## Detalhes de Implementação
 
@@ -122,20 +122,20 @@ interface DailyForecast {
 
 ## Testes da Tarefa
 
-- [ ] Testes de unidade para `weather.service.ts`:
+- [x] Testes de unidade para `weather.service.ts`:
   - Testar formatação de dados da API Open-Meteo
   - Testar chamada à Geocoding API com cidade válida
   - Testar chamada à Forecast API com coordenadas válidas
   - Mockar axios para simular respostas da Open-Meteo
 
-- [ ] Testes de unidade para `weather.controller.ts`:
+- [x] Testes de unidade para `weather.controller.ts`:
   - Testar requisição com cidade válida retorna 200
   - Testar requisição com coordenadas válidas retorna 200
   - Testar cidade não encontrada retorna 404
   - Testar parâmetros ausentes retorna 400
   - Testar erro da API externa retorna 500
 
-- [ ] Testes de integração:
+- [x] Testes de integração:
   - Testar fluxo completo Controller → Service → Mock Open-Meteo
   - Usar supertest para testar endpoints Express
 

@@ -20,16 +20,16 @@ Criar a camada frontend completa do Weather Dashboard, incluindo types, hooks, u
 
 ## Subtarefas
 
-- [ ] 2.1 Criar arquivo `frontend/src/components/weather/weather.types.ts` com interfaces compartilhadas
-- [ ] 2.2 Criar arquivo `frontend/src/components/weather/weather.utils.ts` com utilitários (mapeamento WMO, formatação)
-- [ ] 2.3 Criar arquivo `frontend/src/components/weather/weather.hooks.ts` com hooks `useWeather` e `useGeolocation`
-- [ ] 2.4 Criar componente `frontend/src/components/weather/WeatherIcon.tsx`
-- [ ] 2.5 Criar componente `frontend/src/components/weather/WeatherSearch.tsx`
-- [ ] 2.6 Criar componente `frontend/src/components/weather/CurrentWeather.tsx`
-- [ ] 2.7 Criar componente `frontend/src/components/weather/HourlyForecast.tsx`
-- [ ] 2.8 Criar componente `frontend/src/components/weather/DailyForecast.tsx`
-- [ ] 2.9 Criar componente `frontend/src/components/weather/WeatherDashboard.tsx` (página principal)
-- [ ] 2.10 Criar testes unitários dos componentes e utils
+- [x] 2.1 Criar arquivo `frontend/src/components/weather/weather.types.ts` com interfaces compartilhadas
+- [x] 2.2 Criar arquivo `frontend/src/components/weather/weather.utils.ts` com utilitários (mapeamento WMO, formatação)
+- [x] 2.3 Criar arquivo `frontend/src/components/weather/weather.hooks.ts` com hooks `useWeather` e `useGeolocation`
+- [x] 2.4 Criar componente `frontend/src/components/weather/WeatherIcon.tsx`
+- [x] 2.5 Criar componente `frontend/src/components/weather/WeatherSearch.tsx`
+- [x] 2.6 Criar componente `frontend/src/components/weather/CurrentWeather.tsx`
+- [x] 2.7 Criar componente `frontend/src/components/weather/HourlyForecast.tsx`
+- [x] 2.8 Criar componente `frontend/src/components/weather/DailyForecast.tsx`
+- [x] 2.9 Criar componente `frontend/src/components/weather/WeatherDashboard.tsx` (página principal)
+- [x] 2.10 Criar testes unitários dos componentes e utils
 
 ## Detalhes de Implementação
 
