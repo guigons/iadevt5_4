@@ -1,1 +1,0 @@
-{"root":["./src/index.ts","./src/weather/weather.controller.test.ts","./src/weather/weather.controller.ts","./src/weather/weather.routes.ts","./src/weather/weather.service.test.ts","./src/weather/weather.service.ts","./src/weather/weather.types.ts"],"version":"5.9.2"}
